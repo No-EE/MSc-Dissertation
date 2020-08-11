@@ -15,7 +15,7 @@ The following packages have been used in R:
 - tidyverse
 - UBL
 
-##Census Data Processing
+## Census Data Processing
 
 _AvrgAge.R_
 
@@ -32,3 +32,31 @@ A code to visualise the population counts of the areas by a bubble plot.
 _Internal_Analysis.R_
 
 Draws a scatterplot matrix of the demographic factors within the census dataset.
+
+
+## Geocoding
+### Google Geocode API
+
+_HDB_Geocode.R_
+
+A loop to fetch the coordinates for all HDB properties in Singapore by Google Geocode API.
+
+_School_Geocode.R_
+
+A loop to fetch the coordinates for schools in Singapore by Google Geocode API.
+
+### Google Places API
+
+_Childcare_Places.R_
+
+A loop to fetch childcare amenities without input dataset by Google Places API. This code can be used for other amenities by adjusting the script.
+
+### OSM API
+
+_HDB_OSM.R_
+
+A loop to fetch the coordinates for all HDB properties in Singapore by OSM API.
+
+_School_OSM.R_
+
+A loop to fetch the coordinates for schools in Singapore by OSM API.
