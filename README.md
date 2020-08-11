@@ -60,3 +60,26 @@ A loop to fetch the coordinates for all HDB properties in Singapore by OSM API.
 _School_OSM.R_
 
 A loop to fetch the coordinates for schools in Singapore by OSM API.
+
+### HDB Processing
+
+_HDB_Age.R_
+
+A code to calculate the average age (mean, median and mode) for HDB properties in Subzones.
+
+_HDB_Transactions.R_
+
+Calculates the transaction counts and mean transaction values for Subzones.
+
+_HDB_Type.R_
+
+Calculates the flat type proportions for each Subzone.
+
+## Models
+### Testing
+
+_Counts_Estim.R_
+
+Trains RF, SVM and LM models to estimate population counts including feature combination (optional) and sample balancing (optional).
+
+_Counts_Corr.R_
