@@ -34,7 +34,7 @@ lng = vector("numeric", length = nrow(data))
 #### CAREFUL!! LOOP AHEAD, BE AWARE OF YOUR QUOTA
 for (i in 1:nrow(data)) {
   print(i)
-  coord = google_geocode(address[i], key = "AIzaSyD9Fsn2Mt62OPMVxrMkhM2fJsaJKCqfmuo")
+  coord = google_geocode(address[i], key = "YourApiKey")
   
   
   if (coord$status == "OK") {
