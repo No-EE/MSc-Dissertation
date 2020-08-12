@@ -61,7 +61,7 @@ _School_OSM.R_
 
 A loop to fetch the coordinates for schools in Singapore by OSM API.
 
-### HDB Processing
+## HDB Processing
 
 _HDB_Age.R_
 
@@ -83,3 +83,42 @@ _Counts_Estim.R_
 Trains RF, SVM and LM models to estimate population counts including feature combination (optional) and sample balancing (optional).
 
 _Counts_Corr.R_
+
+Correlation matrix to identify the most highly correlated predictors for population counts.
+
+_AvrgAge_Estim.R_
+
+Trains RF, SVM and LM models to estimate average age including feature combination (optional).
+
+_Age_Corr.R_
+
+Correlation matrix to identify the most highly correlated predictors for age predictions.
+
+_Elder_Estim.R_
+
+Trains RF, SVM and LM models to estimate the elderly proportion including feature combination (optional).
+
+### Final Estimations
+
+_Counts_Final.R_
+
+Estimates the final numbers for population counts.
+
+_AvrgAge_Final.R_
+
+Estimates the final numbers for average age.
+
+_Elder_Final.R_
+
+Estimated the final numbers for the elderly proportion.
+
+## Visualising the results
+
+_Scatter.R_
+
+Scatterplots to compare observed vs. predicted values and predicted vs. predicted (models).
+
+_Treemaps.R_
+
+Treemaps to spatially compare the final estimations with the observed values.
+
