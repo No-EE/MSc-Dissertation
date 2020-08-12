@@ -9,7 +9,7 @@ rm(list = ls())
 library(simPop)
 
 ##set the working directory and check the files within
-setwd("//Users/Noee/Documents/UoE/MSC_RESEARCH - FINAL_FINAL/1_INTERNAL_Analysis")
+setwd("//../")
 list.files()
 
 ##read the file and create a subset
